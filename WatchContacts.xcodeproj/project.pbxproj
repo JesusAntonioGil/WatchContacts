@@ -1,427 +1,1066 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		EAC1ED951AA4FF36004D9B0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC1ED941AA4FF36004D9B0C /* main.m */; };
-		EAC1ED981AA4FF36004D9B0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC1ED971AA4FF36004D9B0C /* AppDelegate.m */; };
-		EAC1ED9B1AA4FF36004D9B0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC1ED9A1AA4FF36004D9B0C /* ViewController.m */; };
-		EAC1ED9E1AA4FF36004D9B0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC1ED9C1AA4FF36004D9B0C /* Main.storyboard */; };
-		EAC1EDA01AA4FF36004D9B0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC1ED9F1AA4FF36004D9B0C /* Images.xcassets */; };
-		EAC1EDA31AA4FF36004D9B0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC1EDA11AA4FF36004D9B0C /* LaunchScreen.xib */; };
-		EAC1EDAF1AA4FF36004D9B0C /* WatchContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC1EDAE1AA4FF36004D9B0C /* WatchContactsTests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		EAC1EDA91AA4FF36004D9B0C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EAC1ED871AA4FF36004D9B0C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAC1ED8E1AA4FF36004D9B0C;
-			remoteInfo = WatchContacts;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		EAC1ED8F1AA4FF36004D9B0C /* WatchContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAC1ED931AA4FF36004D9B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAC1ED941AA4FF36004D9B0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EAC1ED961AA4FF36004D9B0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EAC1ED971AA4FF36004D9B0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EAC1ED991AA4FF36004D9B0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EAC1ED9A1AA4FF36004D9B0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EAC1ED9D1AA4FF36004D9B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EAC1ED9F1AA4FF36004D9B0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EAC1EDA21AA4FF36004D9B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		EAC1EDA81AA4FF36004D9B0C /* WatchContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAC1EDAD1AA4FF36004D9B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAC1EDAE1AA4FF36004D9B0C /* WatchContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchContactsTests.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		EAC1ED8C1AA4FF36004D9B0C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EAC1EDA51AA4FF36004D9B0C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		EAC1ED861AA4FF36004D9B0C = {
-			isa = PBXGroup;
-			children = (
-				EAC1ED911AA4FF36004D9B0C /* WatchContacts */,
-				EAC1EDAB1AA4FF36004D9B0C /* WatchContactsTests */,
-				EAC1ED901AA4FF36004D9B0C /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		EAC1ED901AA4FF36004D9B0C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EAC1ED8F1AA4FF36004D9B0C /* WatchContacts.app */,
-				EAC1EDA81AA4FF36004D9B0C /* WatchContactsTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EAC1ED911AA4FF36004D9B0C /* WatchContacts */ = {
-			isa = PBXGroup;
-			children = (
-				EAC1ED961AA4FF36004D9B0C /* AppDelegate.h */,
-				EAC1ED971AA4FF36004D9B0C /* AppDelegate.m */,
-				EAC1ED991AA4FF36004D9B0C /* ViewController.h */,
-				EAC1ED9A1AA4FF36004D9B0C /* ViewController.m */,
-				EAC1ED9C1AA4FF36004D9B0C /* Main.storyboard */,
-				EAC1ED9F1AA4FF36004D9B0C /* Images.xcassets */,
-				EAC1EDA11AA4FF36004D9B0C /* LaunchScreen.xib */,
-				EAC1ED921AA4FF36004D9B0C /* Supporting Files */,
-			);
-			path = WatchContacts;
-			sourceTree = "<group>";
-		};
-		EAC1ED921AA4FF36004D9B0C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EAC1ED931AA4FF36004D9B0C /* Info.plist */,
-				EAC1ED941AA4FF36004D9B0C /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EAC1EDAB1AA4FF36004D9B0C /* WatchContactsTests */ = {
-			isa = PBXGroup;
-			children = (
-				EAC1EDAE1AA4FF36004D9B0C /* WatchContactsTests.m */,
-				EAC1EDAC1AA4FF36004D9B0C /* Supporting Files */,
-			);
-			path = WatchContactsTests;
-			sourceTree = "<group>";
-		};
-		EAC1EDAC1AA4FF36004D9B0C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EAC1EDAD1AA4FF36004D9B0C /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		EAC1ED8E1AA4FF36004D9B0C /* WatchContacts */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EAC1EDB21AA4FF36004D9B0C /* Build configuration list for PBXNativeTarget "WatchContacts" */;
-			buildPhases = (
-				EAC1ED8B1AA4FF36004D9B0C /* Sources */,
-				EAC1ED8C1AA4FF36004D9B0C /* Frameworks */,
-				EAC1ED8D1AA4FF36004D9B0C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WatchContacts;
-			productName = WatchContacts;
-			productReference = EAC1ED8F1AA4FF36004D9B0C /* WatchContacts.app */;
-			productType = "com.apple.product-type.application";
-		};
-		EAC1EDA71AA4FF36004D9B0C /* WatchContactsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EAC1EDB51AA4FF36004D9B0C /* Build configuration list for PBXNativeTarget "WatchContactsTests" */;
-			buildPhases = (
-				EAC1EDA41AA4FF36004D9B0C /* Sources */,
-				EAC1EDA51AA4FF36004D9B0C /* Frameworks */,
-				EAC1EDA61AA4FF36004D9B0C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EAC1EDAA1AA4FF36004D9B0C /* PBXTargetDependency */,
-			);
-			name = WatchContactsTests;
-			productName = WatchContactsTests;
-			productReference = EAC1EDA81AA4FF36004D9B0C /* WatchContactsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		EAC1ED871AA4FF36004D9B0C /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "Jesus Antonio Gil";
-				TargetAttributes = {
-					EAC1ED8E1AA4FF36004D9B0C = {
-						CreatedOnToolsVersion = 6.1.1;
-					};
-					EAC1EDA71AA4FF36004D9B0C = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = EAC1ED8E1AA4FF36004D9B0C;
-					};
-				};
-			};
-			buildConfigurationList = EAC1ED8A1AA4FF36004D9B0C /* Build configuration list for PBXProject "WatchContacts" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = EAC1ED861AA4FF36004D9B0C;
-			productRefGroup = EAC1ED901AA4FF36004D9B0C /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				EAC1ED8E1AA4FF36004D9B0C /* WatchContacts */,
-				EAC1EDA71AA4FF36004D9B0C /* WatchContactsTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		EAC1ED8D1AA4FF36004D9B0C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EAC1ED9E1AA4FF36004D9B0C /* Main.storyboard in Resources */,
-				EAC1EDA31AA4FF36004D9B0C /* LaunchScreen.xib in Resources */,
-				EAC1EDA01AA4FF36004D9B0C /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EAC1EDA61AA4FF36004D9B0C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		EAC1ED8B1AA4FF36004D9B0C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EAC1ED9B1AA4FF36004D9B0C /* ViewController.m in Sources */,
-				EAC1ED981AA4FF36004D9B0C /* AppDelegate.m in Sources */,
-				EAC1ED951AA4FF36004D9B0C /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EAC1EDA41AA4FF36004D9B0C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EAC1EDAF1AA4FF36004D9B0C /* WatchContactsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EAC1EDAA1AA4FF36004D9B0C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EAC1ED8E1AA4FF36004D9B0C /* WatchContacts */;
-			targetProxy = EAC1EDA91AA4FF36004D9B0C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EAC1ED9C1AA4FF36004D9B0C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EAC1ED9D1AA4FF36004D9B0C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EAC1EDA11AA4FF36004D9B0C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EAC1EDA21AA4FF36004D9B0C /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		EAC1EDB01AA4FF36004D9B0C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		EAC1EDB11AA4FF36004D9B0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		EAC1EDB31AA4FF36004D9B0C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = WatchContacts/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		EAC1EDB41AA4FF36004D9B0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = WatchContacts/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		EAC1EDB61AA4FF36004D9B0C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = WatchContactsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchContacts.app/WatchContacts";
-			};
-			name = Debug;
-		};
-		EAC1EDB71AA4FF36004D9B0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = WatchContactsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchContacts.app/WatchContacts";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		EAC1ED8A1AA4FF36004D9B0C /* Build configuration list for PBXProject "WatchContacts" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EAC1EDB01AA4FF36004D9B0C /* Debug */,
-				EAC1EDB11AA4FF36004D9B0C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EAC1EDB21AA4FF36004D9B0C /* Build configuration list for PBXNativeTarget "WatchContacts" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EAC1EDB31AA4FF36004D9B0C /* Debug */,
-				EAC1EDB41AA4FF36004D9B0C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		EAC1EDB51AA4FF36004D9B0C /* Build configuration list for PBXNativeTarget "WatchContactsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EAC1EDB61AA4FF36004D9B0C /* Debug */,
-				EAC1EDB71AA4FF36004D9B0C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = EAC1ED871AA4FF36004D9B0C /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>009C1CFAA47D68A7130E31F1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>2A33E9F97D37C61024E033E2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>44A83159F7E16A6F653D4691</string>
+				<string>CD4FAEAA0ED0868221F4FB18</string>
+				<string>3BBDC7A696628792E2661299</string>
+				<string>FE0A25DB131D7C9EF02056EC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2B3CE53E6593980A9E383FB4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>3BBDC7A696628792E2661299</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-WatchContactsTests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-WatchContactsTests/Pods-WatchContactsTests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>44A83159F7E16A6F653D4691</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-WatchContacts.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-WatchContacts/Pods-WatchContacts.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6E5FE084E469BF53FE13EC99</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-WatchContacts/Pods-WatchContacts-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>72C3B3686D4B189829799E41</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-WatchContactsTests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>75CA60B87BB163562DCDF4FF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B275CD5BBBB126A3C0A7C4F5</string>
+				<string>72C3B3686D4B189829799E41</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>78777142FDE78B9018B6B6F4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>72C3B3686D4B189829799E41</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DFB168C757C958CA78CD993</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-WatchContactsTests/Pods-WatchContactsTests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>B275CD5BBBB126A3C0A7C4F5</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-WatchContacts.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>CD4FAEAA0ED0868221F4FB18</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-WatchContacts.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-WatchContacts/Pods-WatchContacts.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E5BDEDCE9A992DFB98E75C35</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B275CD5BBBB126A3C0A7C4F5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EAC1ED861AA4FF36004D9B0C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EAC1ED911AA4FF36004D9B0C</string>
+				<string>EAC1EDAB1AA4FF36004D9B0C</string>
+				<string>EAC1ED901AA4FF36004D9B0C</string>
+				<string>2A33E9F97D37C61024E033E2</string>
+				<string>75CA60B87BB163562DCDF4FF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1ED871AA4FF36004D9B0C</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0610</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Jesus Antonio Gil</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>EAC1ED8E1AA4FF36004D9B0C</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.1.1</string>
+					</dict>
+					<key>EAC1EDA71AA4FF36004D9B0C</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.1.1</string>
+						<key>TestTargetID</key>
+						<string>EAC1ED8E1AA4FF36004D9B0C</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>EAC1ED8A1AA4FF36004D9B0C</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>EAC1ED861AA4FF36004D9B0C</string>
+			<key>productRefGroup</key>
+			<string>EAC1ED901AA4FF36004D9B0C</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>EAC1ED8E1AA4FF36004D9B0C</string>
+				<string>EAC1EDA71AA4FF36004D9B0C</string>
+			</array>
+		</dict>
+		<key>EAC1ED8A1AA4FF36004D9B0C</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>EAC1EDB01AA4FF36004D9B0C</string>
+				<string>EAC1EDB11AA4FF36004D9B0C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>EAC1ED8B1AA4FF36004D9B0C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EAC1ED9B1AA4FF36004D9B0C</string>
+				<string>EAC1ED981AA4FF36004D9B0C</string>
+				<string>EAC1ED951AA4FF36004D9B0C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EAC1ED8C1AA4FF36004D9B0C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E5BDEDCE9A992DFB98E75C35</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EAC1ED8D1AA4FF36004D9B0C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EAC1ED9E1AA4FF36004D9B0C</string>
+				<string>EAC1EDA31AA4FF36004D9B0C</string>
+				<string>EAC1EDA01AA4FF36004D9B0C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EAC1ED8E1AA4FF36004D9B0C</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>EAC1EDB21AA4FF36004D9B0C</string>
+			<key>buildPhases</key>
+			<array>
+				<string>2B3CE53E6593980A9E383FB4</string>
+				<string>EAC1ED8B1AA4FF36004D9B0C</string>
+				<string>EAC1ED8C1AA4FF36004D9B0C</string>
+				<string>EAC1ED8D1AA4FF36004D9B0C</string>
+				<string>6E5FE084E469BF53FE13EC99</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>WatchContacts</string>
+			<key>productName</key>
+			<string>WatchContacts</string>
+			<key>productReference</key>
+			<string>EAC1ED8F1AA4FF36004D9B0C</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>EAC1ED8F1AA4FF36004D9B0C</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>WatchContacts.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>EAC1ED901AA4FF36004D9B0C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EAC1ED8F1AA4FF36004D9B0C</string>
+				<string>EAC1EDA81AA4FF36004D9B0C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1ED911AA4FF36004D9B0C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EAC1ED961AA4FF36004D9B0C</string>
+				<string>EAC1ED971AA4FF36004D9B0C</string>
+				<string>EAC1ED991AA4FF36004D9B0C</string>
+				<string>EAC1ED9A1AA4FF36004D9B0C</string>
+				<string>EAC1ED9C1AA4FF36004D9B0C</string>
+				<string>EAC1ED9F1AA4FF36004D9B0C</string>
+				<string>EAC1EDA11AA4FF36004D9B0C</string>
+				<string>EAC1ED921AA4FF36004D9B0C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>WatchContacts</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1ED921AA4FF36004D9B0C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EAC1ED931AA4FF36004D9B0C</string>
+				<string>EAC1ED941AA4FF36004D9B0C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1ED931AA4FF36004D9B0C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1ED941AA4FF36004D9B0C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1ED951AA4FF36004D9B0C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EAC1ED941AA4FF36004D9B0C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EAC1ED961AA4FF36004D9B0C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1ED971AA4FF36004D9B0C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1ED981AA4FF36004D9B0C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EAC1ED971AA4FF36004D9B0C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EAC1ED991AA4FF36004D9B0C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1ED9A1AA4FF36004D9B0C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1ED9B1AA4FF36004D9B0C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EAC1ED9A1AA4FF36004D9B0C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EAC1ED9C1AA4FF36004D9B0C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EAC1ED9D1AA4FF36004D9B0C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1ED9D1AA4FF36004D9B0C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1ED9E1AA4FF36004D9B0C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EAC1ED9C1AA4FF36004D9B0C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EAC1ED9F1AA4FF36004D9B0C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1EDA01AA4FF36004D9B0C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EAC1ED9F1AA4FF36004D9B0C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EAC1EDA11AA4FF36004D9B0C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EAC1EDA21AA4FF36004D9B0C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1EDA21AA4FF36004D9B0C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1EDA31AA4FF36004D9B0C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EAC1EDA11AA4FF36004D9B0C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EAC1EDA41AA4FF36004D9B0C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EAC1EDAF1AA4FF36004D9B0C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EAC1EDA51AA4FF36004D9B0C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>78777142FDE78B9018B6B6F4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EAC1EDA61AA4FF36004D9B0C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EAC1EDA71AA4FF36004D9B0C</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>EAC1EDB51AA4FF36004D9B0C</string>
+			<key>buildPhases</key>
+			<array>
+				<string>009C1CFAA47D68A7130E31F1</string>
+				<string>EAC1EDA41AA4FF36004D9B0C</string>
+				<string>EAC1EDA51AA4FF36004D9B0C</string>
+				<string>EAC1EDA61AA4FF36004D9B0C</string>
+				<string>7DFB168C757C958CA78CD993</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>EAC1EDAA1AA4FF36004D9B0C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>WatchContactsTests</string>
+			<key>productName</key>
+			<string>WatchContactsTests</string>
+			<key>productReference</key>
+			<string>EAC1EDA81AA4FF36004D9B0C</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>EAC1EDA81AA4FF36004D9B0C</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>WatchContactsTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>EAC1EDA91AA4FF36004D9B0C</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>EAC1ED871AA4FF36004D9B0C</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>EAC1ED8E1AA4FF36004D9B0C</string>
+			<key>remoteInfo</key>
+			<string>WatchContacts</string>
+		</dict>
+		<key>EAC1EDAA1AA4FF36004D9B0C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>EAC1ED8E1AA4FF36004D9B0C</string>
+			<key>targetProxy</key>
+			<string>EAC1EDA91AA4FF36004D9B0C</string>
+		</dict>
+		<key>EAC1EDAB1AA4FF36004D9B0C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EAC1EDAE1AA4FF36004D9B0C</string>
+				<string>EAC1EDAC1AA4FF36004D9B0C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>WatchContactsTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1EDAC1AA4FF36004D9B0C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EAC1EDAD1AA4FF36004D9B0C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1EDAD1AA4FF36004D9B0C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1EDAE1AA4FF36004D9B0C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>WatchContactsTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAC1EDAF1AA4FF36004D9B0C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EAC1EDAE1AA4FF36004D9B0C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EAC1EDB01AA4FF36004D9B0C</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>EAC1EDB11AA4FF36004D9B0C</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>EAC1EDB21AA4FF36004D9B0C</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>EAC1EDB31AA4FF36004D9B0C</string>
+				<string>EAC1EDB41AA4FF36004D9B0C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>EAC1EDB31AA4FF36004D9B0C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>44A83159F7E16A6F653D4691</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>WatchContacts/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>EAC1EDB41AA4FF36004D9B0C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>CD4FAEAA0ED0868221F4FB18</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>WatchContacts/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>EAC1EDB51AA4FF36004D9B0C</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>EAC1EDB61AA4FF36004D9B0C</string>
+				<string>EAC1EDB71AA4FF36004D9B0C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>EAC1EDB61AA4FF36004D9B0C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>3BBDC7A696628792E2661299</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>WatchContactsTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/WatchContacts.app/WatchContacts</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>EAC1EDB71AA4FF36004D9B0C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>FE0A25DB131D7C9EF02056EC</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>WatchContactsTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/WatchContacts.app/WatchContacts</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>FE0A25DB131D7C9EF02056EC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-WatchContactsTests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-WatchContactsTests/Pods-WatchContactsTests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>EAC1ED871AA4FF36004D9B0C</string>
+</dict>
+</plist>
